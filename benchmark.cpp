@@ -113,7 +113,8 @@ int main(int argc, char** argv)
         // 2n^2 arithmetic operations
 
         //mflops calc --> (ops/time) * (1/(10^6))
-        double mflops = (static_cast<double>(n)/elapsed_time_too) * (1/1e6);
+	// 2n^2 arith ops
+        double mflops = ((static_cast<double>(n) * (2) * (static_cast<double>(n)))/elapsed_time_too) * (1/1e6);
 
 
         //bandwith calc --> (bAchieved/bPeak) * 100
@@ -129,8 +130,8 @@ int main(int argc, char** argv)
         //std::cout << "achived/peak = " << achOverPeak << std::endl;
         double memBandwith = (achieved/peak) * 100; 
 
-        printf("MFLOP/s = %f\n", mflops);
-        printf("Memory Bandwidth = %f\n", memBandwith);
+        printf("MFLOP/s = %f mflop/s\n", mflops);
+        printf("Memory Bandwidth = %f%\n", memBandwith);
 
 
         // now invoke the cblas method to compute the matrix-vector multiplye
@@ -138,9 +139,9 @@ int main(int argc, char** argv)
 
         // compare your result with that computed by BLAS
         if (check_accuracy(Ycopy, Y, n) == false){
-           printf(" Error: your answer is not the same as that computed by BLAS. \n");
+           printf(" Error: your answer is not the same as that computed by BLAS. \n\n");
     	} else {
-		printf("Answer is same as that computed by BLAS\n");
+		printf("Answer is same as that computed by BLAS\n\n");
 	}
     } // end loop over problem sizes
 
