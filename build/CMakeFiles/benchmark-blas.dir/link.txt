@@ -1,0 +1,1 @@
+/usr/bin/g++ -I /opt/cray/pe/libsci/23.05.1.4/GNU/10.3/x86_64/include -O0 -L /opt/cray/pe/libsci/23.05.1.4/GNU/10.3/x86_64/lib -lsci_gnu -ldl CMakeFiles/benchmark-blas.dir/dgemv-blas.cpp.o CMakeFiles/benchmark.dir/benchmark.cpp.o -o benchmark-blas 
