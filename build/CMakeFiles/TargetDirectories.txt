@@ -1,7 +1,0 @@
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/build/CMakeFiles/rebuild_cache.dir
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/build/CMakeFiles/benchmark-openmp.dir
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/build/CMakeFiles/benchmark-blas.dir
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/build/CMakeFiles/edit_cache.dir
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/build/CMakeFiles/benchmark-vectorized.dir
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/build/CMakeFiles/benchmark-basic.dir
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/build/CMakeFiles/benchmark.dir
