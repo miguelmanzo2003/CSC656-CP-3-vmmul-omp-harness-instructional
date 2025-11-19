@@ -105,6 +105,34 @@ int main(int argc, char** argv)
 
         std::cout << " Elapsed time: " << elapsed_time_too << "seconds" << std::endl;
 
+
+        //computations for MFLOPS and Memory bandwidth
+        //taken from coding project 2 as they were determined to be correct calculations
+        //under the assumption that (from slides/lecture):
+        // 2n + 2n^2 memory references
+        // 2n^2 arithmetic operations
+
+        //mflops calc --> (ops/time) * (1/(10^6))
+        double mflops = (static_cast<double>(n)/elapsed_time_too) * (1/1e6);
+
+
+        //bandwith calc --> (bAchieved/bPeak) * 100
+
+        //bytes moved --> (2n + 2n^2)* 8  [times 8 bc double is 8 bytes]
+        double bytesMoved = ((2 * n) + (2 * n * n)) * 8;
+
+        //divide by 1e9 to convert to gb/s
+        double achieved = (bytesMoved/ elapsed_time_too) / 1e9;
+        //memory bandwidth per CPU,
+        double peak = 204.8;
+        //double achOverPeak = achieved/peak;
+        //std::cout << "achived/peak = " << achOverPeak << std::endl;
+        double memBandwith = (achieved/peak) * 100; 
+
+        printf("MFLOP/s = %f\n", mflops);
+        printf("Memory Bandwidth = %f\n", memBandwith);
+
+
         // now invoke the cblas method to compute the matrix-vector multiplye
         reference_dgemv(n, Acopy, Xcopy, Ycopy);
 
