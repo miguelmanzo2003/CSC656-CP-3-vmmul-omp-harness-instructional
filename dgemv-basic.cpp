@@ -8,8 +8,9 @@ const char* dgemv_desc = "Basic implementation of matrix-vector multiply.";
  */
 
  //had some help in understanding how the dgemv operation works from gen ai
- // no code was copied, everything here is entered and commented to make sure I understand it
- 
+ // no code was copied, everything here is entered and commented to make sure my process
+ //is documented and I understand it 
+
 void my_dgemv(int n, double* A, double* x, double* y) {
    // insert your code here: implementation of basic matrix multiply
 
