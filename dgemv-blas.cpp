@@ -1,3 +1,7 @@
+#include <string.h>
+#include <iomanip>
+
+
 #include <cblas.h>
 
 const char* dgemv_desc = "Reference dgemv.";
@@ -10,6 +14,9 @@ const char* dgemv_desc = "Reference dgemv.";
  * This function wraps a call to the BLAS-2 routine DGEMV
  */
 void my_dgemv(int n, double* A, double* x, double* y) {
+
+   printf("entered dgemv: BLAS\n");
+
    double alpha=1.0, beta=1.0;
    int lda=n, incx=1, incy=1;
    cblas_dgemv(CblasRowMajor, CblasNoTrans, n, n, alpha, A, lda, x, incx, beta, y, incy);

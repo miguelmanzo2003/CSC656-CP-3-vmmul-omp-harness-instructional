@@ -3,6 +3,10 @@
 #include <stdio.h>
 #include <omp.h>
 
+#include <string.h>
+#include <iomanip>
+
+
 const char* dgemv_desc = "OpenMP dgemv.";
 
 /*
@@ -13,6 +17,9 @@ const char* dgemv_desc = "OpenMP dgemv.";
  */
 
 void my_dgemv(int n, double* A, double* x, double* y) {
+
+      printf("entered dgemv: OPENMP\n");
+
 
    #pragma omp parallel
    {

@@ -1,3 +1,7 @@
+#include <string.h>
+#include <iomanip>
+
+
 const char* dgemv_desc = "Vectorized implementation of matrix-vector multiply.";
 
 /*
@@ -9,8 +13,8 @@ const char* dgemv_desc = "Vectorized implementation of matrix-vector multiply.";
 void my_dgemv(int n, double* A, double* x, double* y) {
    // insert your code here: implementation of vectorized vector-matrix multiply
 
-   // insert your code here: implementation of basic matrix multiply
-
+   printf("entered dgemv: VECTORIZED\n");
+   //it seems that the same code from dgemv basic was able to be vectorized, 
    //taken from lecture 22
    /*
    for row in 0,M:
