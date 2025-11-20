@@ -1,0 +1,44 @@
+Description:	Basic implementation of matrix-vector multiply.
+
+Working on problem size N=1024 
+entered dgemv: BASIC
+ Elapsed time: 0.00087 seconds
+MFLOP/s = 2400.176710 mflop/s
+Memory Bandwidth = 9.384846 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=1024 
+entered dgemv: BASIC
+ Elapsed time: 0.00087 seconds
+MFLOP/s = 2408.603731 mflop/s
+Memory Bandwidth = 9.417796 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=2048 
+entered dgemv: BASIC
+ Elapsed time: 0.00356 seconds
+MFLOP/s = 2356.788156 mflop/s
+Memory Bandwidth = 9.210699 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=4096 
+entered dgemv: BASIC
+ Elapsed time: 0.01447 seconds
+MFLOP/s = 2318.467711 mflop/s
+Memory Bandwidth = 9.058726 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=8192 
+entered dgemv: BASIC
+ Elapsed time: 0.05815 seconds
+MFLOP/s = 2308.103658 mflop/s
+Memory Bandwidth = 9.017131 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=16384 
+entered dgemv: BASIC
+ Elapsed time: 0.23291 seconds
+MFLOP/s = 2305.048235 mflop/s
+Memory Bandwidth = 0.000550 %
+Answer is same as that computed by BLAS
+

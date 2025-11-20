@@ -1,11 +1,11 @@
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:12:1: note: ***** Analysis failed with vector mode VOID
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:25:25: missed: couldn't vectorize loop
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:36:35: missed: not vectorized: complicated access pattern.
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:30:34: optimized: loop vectorized using 16 byte vectors
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: vectorized 1 loops in function.
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:41:14: note: ***** Analysis failed with vector mode V2DF
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:41:14: note: ***** The result for vector mode V16QI would be the same
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:41:14: note: ***** Re-trying analysis with vector mode V8QI
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:41:14: note: ***** Analysis failed with vector mode V8QI
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:41:14: note: ***** Re-trying analysis with vector mode V4QI
-/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:41:14: note: ***** Analysis failed with vector mode V4QI
+/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:29:25: missed: couldn't vectorize loop
+/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:40:35: missed: not vectorized: complicated access pattern.
+/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:34:34: optimized: loop vectorized using 16 byte vectors
+/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:13:6: note: vectorized 1 loops in function.
+/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:16:10: missed: statement clobbers memory: __builtin_puts (&"entered dgemv: VECTORIZED"[0]);
+/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:45:14: note: ***** Analysis failed with vector mode V2DF
+/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:45:14: note: ***** The result for vector mode V16QI would be the same
+/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:45:14: note: ***** Re-trying analysis with vector mode V8QI
+/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:45:14: note: ***** Analysis failed with vector mode V8QI
+/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:45:14: note: ***** Re-trying analysis with vector mode V4QI
+/global/homes/m/manzo/CSC656-CP-3-vmmul-omp-harness-instructional/dgemv-vectorized.cpp:45:14: note: ***** Analysis failed with vector mode V4QI

@@ -1,0 +1,180 @@
+OMP_NUM_THREASDS =  1
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+entered dgemv: OPENMP
+ Elapsed time: 0.00092 seconds
+MFLOP/s = 2272.414219 mflop/s
+Memory Bandwidth = 8.885287 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=1024 
+entered dgemv: OPENMP
+ Elapsed time: 0.00088 seconds
+MFLOP/s = 2394.383597 mflop/s
+Memory Bandwidth = 9.362195 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=2048 
+entered dgemv: OPENMP
+ Elapsed time: 0.00358 seconds
+MFLOP/s = 2343.186592 mflop/s
+Memory Bandwidth = 9.157542 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=4096 
+entered dgemv: OPENMP
+ Elapsed time: 0.01458 seconds
+MFLOP/s = 2300.965640 mflop/s
+Memory Bandwidth = 8.990341 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=8192 
+entered dgemv: OPENMP
+ Elapsed time: 0.05832 seconds
+MFLOP/s = 2301.230516 mflop/s
+Memory Bandwidth = 8.990279 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=16384 
+entered dgemv: OPENMP
+ Elapsed time: 0.23349 seconds
+MFLOP/s = 2299.290781 mflop/s
+Memory Bandwidth = 0.000548 %
+Answer is same as that computed by BLAS
+
+OMP_NUM_THREASDS =  4
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+entered dgemv: OPENMP
+ Elapsed time: 0.00065 seconds
+MFLOP/s = 3248.049685 mflop/s
+Memory Bandwidth = 12.700084 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=1024 
+entered dgemv: OPENMP
+ Elapsed time: 0.00047 seconds
+MFLOP/s = 4426.042746 mflop/s
+Memory Bandwidth = 17.306113 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=2048 
+entered dgemv: OPENMP
+ Elapsed time: 0.00176 seconds
+MFLOP/s = 4768.530435 mflop/s
+Memory Bandwidth = 18.636167 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=4096 
+entered dgemv: OPENMP
+ Elapsed time: 0.00452 seconds
+MFLOP/s = 7427.469329 mflop/s
+Memory Bandwidth = 29.020635 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=8192 
+entered dgemv: OPENMP
+ Elapsed time: 0.01605 seconds
+MFLOP/s = 8360.505207 mflop/s
+Memory Bandwidth = 32.662210 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=16384 
+entered dgemv: OPENMP
+ Elapsed time: 0.06001 seconds
+MFLOP/s = 8946.658031 mflop/s
+Memory Bandwidth = 0.002133 %
+Answer is same as that computed by BLAS
+
+OMP_NUM_THREASDS =  16
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+entered dgemv: OPENMP
+ Elapsed time: 0.00101 seconds
+MFLOP/s = 2080.796936 mflop/s
+Memory Bandwidth = 8.136051 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=1024 
+entered dgemv: OPENMP
+ Elapsed time: 0.00049 seconds
+MFLOP/s = 4258.107483 mflop/s
+Memory Bandwidth = 16.649476 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=2048 
+entered dgemv: OPENMP
+ Elapsed time: 0.00168 seconds
+MFLOP/s = 4983.006850 mflop/s
+Memory Bandwidth = 19.474375 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=4096 
+entered dgemv: OPENMP
+ Elapsed time: 0.00336 seconds
+MFLOP/s = 9983.662875 mflop/s
+Memory Bandwidth = 39.008204 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=8192 
+entered dgemv: OPENMP
+ Elapsed time: 0.01412 seconds
+MFLOP/s = 9508.081156 mflop/s
+Memory Bandwidth = 37.145476 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=16384 
+entered dgemv: OPENMP
+ Elapsed time: 0.05674 seconds
+MFLOP/s = 9461.637028 mflop/s
+Memory Bandwidth = 0.002256 %
+Answer is same as that computed by BLAS
+
+OMP_NUM_THREASDS =  64
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+entered dgemv: OPENMP
+ Elapsed time: 0.00231 seconds
+MFLOP/s = 908.283054 mflop/s
+Memory Bandwidth = 3.551446 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=1024 
+entered dgemv: OPENMP
+ Elapsed time: 0.00097 seconds
+MFLOP/s = 2170.832216 mflop/s
+Memory Bandwidth = 8.488094 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=2048 
+entered dgemv: OPENMP
+ Elapsed time: 0.00264 seconds
+MFLOP/s = 3177.247888 mflop/s
+Memory Bandwidth = 12.417185 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=4096 
+entered dgemv: OPENMP
+ Elapsed time: 0.00426 seconds
+MFLOP/s = 7871.569839 mflop/s
+Memory Bandwidth = 30.755827 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=8192 
+entered dgemv: OPENMP
+ Elapsed time: 0.01493 seconds
+MFLOP/s = 8989.043522 mflop/s
+Memory Bandwidth = 35.117738 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=16384 
+entered dgemv: OPENMP
+ Elapsed time: 0.05954 seconds
+MFLOP/s = 9016.577546 mflop/s
+Memory Bandwidth = 0.002150 %
+Answer is same as that computed by BLAS
+

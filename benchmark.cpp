@@ -103,7 +103,7 @@ int main(int argc, char** argv)
         std::chrono::duration<double> elapsed_time = end - start;
         double elapsed_time_too = elapsed_time.count();
 
-        std::cout << " Elapsed time: " << elapsed_time_too << "seconds" << std::endl;
+        std::cout << " Elapsed time: " << elapsed_time_too << " seconds" << std::endl;
 
 
         //computations for MFLOPS and Memory bandwidth
@@ -131,7 +131,7 @@ int main(int argc, char** argv)
         double memBandwith = (achieved/peak) * 100; 
 
         printf("MFLOP/s = %f mflop/s\n", mflops);
-        printf("Memory Bandwidth = %f%\n", memBandwith);
+        printf("Memory Bandwidth = %f %\n", memBandwith);
 
 
         // now invoke the cblas method to compute the matrix-vector multiplye

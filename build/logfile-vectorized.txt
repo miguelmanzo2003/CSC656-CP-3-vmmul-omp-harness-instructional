@@ -1,0 +1,44 @@
+Description:	Vectorized implementation of matrix-vector multiply.
+
+Working on problem size N=1024 
+entered dgemv: VECTORIZED
+ Elapsed time: 0.00056 seconds
+MFLOP/s = 3753.043646 mflop/s
+Memory Bandwidth = 14.674643 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=1024 
+entered dgemv: VECTORIZED
+ Elapsed time: 0.00043 seconds
+MFLOP/s = 4851.924087 mflop/s
+Memory Bandwidth = 18.971337 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=2048 
+entered dgemv: VECTORIZED
+ Elapsed time: 0.00179 seconds
+MFLOP/s = 4689.705757 mflop/s
+Memory Bandwidth = 18.328108 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=4096 
+entered dgemv: VECTORIZED
+ Elapsed time: 0.00729 seconds
+MFLOP/s = 4601.074658 mflop/s
+Memory Bandwidth = 17.977336 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=8192 
+entered dgemv: VECTORIZED
+ Elapsed time: 0.02924 seconds
+MFLOP/s = 4590.271742 mflop/s
+Memory Bandwidth = 17.932938 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=16384 
+entered dgemv: VECTORIZED
+ Elapsed time: 0.11740 seconds
+MFLOP/s = 4573.103448 mflop/s
+Memory Bandwidth = 0.001090 %
+Answer is same as that computed by BLAS
+

@@ -1,0 +1,44 @@
+Description:	Reference dgemv.
+
+Working on problem size N=1024 
+entered dgemv: BLAS
+ Elapsed time: 0.00035 seconds
+MFLOP/s = 5970.828481 mflop/s
+Memory Bandwidth = 23.346326 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=1024 
+entered dgemv: BLAS
+ Elapsed time: 0.00016 seconds
+MFLOP/s = 12869.358174 mflop/s
+Memory Bandwidth = 50.320023 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=2048 
+entered dgemv: BLAS
+ Elapsed time: 0.00055 seconds
+MFLOP/s = 15386.859386 mflop/s
+Memory Bandwidth = 60.134268 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=4096 
+entered dgemv: BLAS
+ Elapsed time: 0.00403 seconds
+MFLOP/s = 8328.989096 mflop/s
+Memory Bandwidth = 32.543057 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=8192 
+entered dgemv: BLAS
+ Elapsed time: 0.01824 seconds
+MFLOP/s = 7359.171653 mflop/s
+Memory Bandwidth = 28.750273 %
+Answer is same as that computed by BLAS
+
+Working on problem size N=16384 
+entered dgemv: BLAS
+ Elapsed time: 0.07108 seconds
+MFLOP/s = 7553.047728 mflop/s
+Memory Bandwidth = 0.001801 %
+Answer is same as that computed by BLAS
+
